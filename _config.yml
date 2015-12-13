@@ -1,28 +1,40 @@
-name: Markexander
 favicon: null
-layout_spectrum: 0.5900351167656481
-typography_spectrum: 0.7293794904835522
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Markexander
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7258065
+  brandStrength: 0.9446705731097609
+  lightness: 0.5878136
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
-  brandStrength: 0.9446705731097609
-  lightness: 0.9092503408901393
-  saturation: 0.8191159935668111
-  rhythmicContrast: 0.7967393461149186
-purpose: []
+  rhythmicContrast: 0.5663083
+typography_spectrum: 0.2275986
+layout_spectrum: 0.5232975
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
